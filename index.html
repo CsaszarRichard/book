@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<title>Title</title>
+
+<style>
+
+    th{
+
+        width: 150px;
+    }
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <form action="" method="post" class="w-50 mx-auto text-center p-5">
+
+            <h2 class="mb-5">Javascript Könyvek rögzítése</h2>
+
+            <label>Könyv címe</label>
+            <input type="text" id="title" class="form-control my-3">
+
+            <label>Könyv szerzője</label>
+            <input type="text" id="author" class="form-control my-3">
+
+            <label>Cikkszám</label>
+            <input type="text" id="number" class="form-control my-3">
+
+            <button id="add" class="btn btn-primary">Könyv hozzáadása</button>
+
+        </form>
+    </div>
+
+    <div class="container mt-3">
+        <table class="table table-striped text-center w-50 mx-auto">
+            <tr>
+                <th>Cím</th>
+                <th>Szerző</th>
+                <th>Cikkszám</th>
+            </tr>
+          
+        </table>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
